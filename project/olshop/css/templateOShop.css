@@ -1,0 +1,87 @@
+.container .navbar-brand {
+    text-indent: -9999px;
+    background-image: url(../img/logo-bukatoko.jpg);
+    width: 280px;
+    height: 61px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .tutup {
+        display: none;
+    }
+
+    .carousel-item img {
+        width: 300px;
+        border: 1px solid salmon;
+    }
+}
+
+.mt-10 {
+    margin-top: 60px;
+}
+
+.carousel-inner {
+    position: relative;
+    margin-left: 4rem;
+    margin-top: 10px;
+    height: 294px;
+    width: 962px;
+    overflow: hidden;
+}
+
+.carousel-control-prev {
+    left: 16px;
+}
+
+.carousel-control-next {
+    right: 16px;
+}
+
+.tengah {
+    /* border: 1px solid yellow; */
+    margin-left: 4rem;
+    width: 962px;
+}
+
+
+
+img {
+    /* width: 10%; */
+    /* height: 550px; */
+    background-size: cover;
+}
+
+/* .mt-n150 {
+    margin-top: -275px;
+} */
+
+/* card */
+
+.card-text {
+    height: 40px;
+}
+
+.card p {
+    margin-top: -10px;
+    margin-bottom: 1px;
+}
+
+.row .card:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+
+.rounded {
+    width: 200px;
+    height: 200px;
+
+}
+
+footer .footer {
+
+    /* border: 1px solid red; */
+    overflow: hidden;
+    width: 1362px;
+
+}

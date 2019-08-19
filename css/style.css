@@ -1,0 +1,1290 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #2a2a2a;
+}
+
+/* style navbar */
+nav {
+    min-height: 55px;
+    top: 0;
+    /* left: 0;
+right: 0; */
+    width: 100%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+nav ul {
+    margin-left: 250px;
+    list-style-type: none;
+}
+
+nav ul li {
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #777;
+}
+
+.kanan {
+    display: inline-block;
+    margin-left: 365px;
+}
+
+.kanan li {
+    margin-right: 70px;
+}
+
+/* style container */
+
+.container {
+    margin-top: 80px;
+    overflow: auto;
+}
+
+/* style asid */
+aside {
+    width: 300px;
+    float: left;
+}
+
+aside img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, .15);
+    margin-left: 23px;
+    margin-top: 38px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+aside h2 {
+    float: left;
+}
+
+aside .aboutMe .boxAboutMe {
+    position: absolute;
+    margin-top: -115px;
+}
+
+aside .aboutMe h4 i {
+    margin-left: 88px;
+    margin-top: 5px;
+}
+
+div.hide {
+    display: none;
+}
+
+aside ul {
+    margin-left: 25px;
+    margin-top: 45px;
+    width: 260px;
+}
+
+aside ul li {
+    display: block;
+    overflow: hidden;
+}
+
+aside ul li p {
+    text-align: justify;
+    padding-right: 10px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+}
+
+
+aside .myBackground ul {
+    margin-top: 10px;
+}
+
+aside .myBackground .boxMyBackground {
+    position: absolute;
+    margin-top: -115px;
+}
+
+aside .myBackground h4 i {
+    margin-left: 24px;
+    margin-top: 5px;
+}
+
+@keyframes fade-down {
+    from {
+        height: 1px;
+    }
+
+    to {
+        height: 142px;
+    }
+}
+
+@keyframes fade-up {
+    from {
+        height: 142px;
+    }
+
+    to {
+        height: 1px;
+    }
+}
+
+/* style header */
+header {
+    margin-left: 300px;
+    /* height: 103vh; */
+}
+
+/* style jumbotron */
+.jumbotron {
+    width: 100%;
+    height: 400px;
+    padding: 150px 40px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #0c7cd5;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(235, 232, 232);
+    opacity: .9;
+}
+
+.jumbotron .overlay {
+    text-shadow: 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron p {
+    margin-top: 10px;
+}
+
+/* main */
+main {
+    margin-left: 300px;
+    overflow: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+main .boxMyPortfolio {
+    position: relative;
+    top: -100px;
+}
+
+main .box-card {
+    overflow: hidden;
+    /* border: 1px solid; */
+}
+
+/* card */
+
+.card {
+    margin: 45px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+    float: left;
+    padding-bottom: 20px;
+    background-color: #f8f9fa !important;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 250px;
+}
+
+.card .title {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+.card .title h2 {
+    font-weight: 300;
+    font-size: 20px;
+    color: #2196f3;
+}
+
+.card .conten {
+    padding: 10px;
+}
+
+.card .conten p {
+    color: #777;
+}
+
+.card .detail {
+    width: 100px;
+    background-color: #0bbee6;
+    border-color: #0c7cd5;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px auto;
+    margin-top: 10px;
+    box-shadow: 0 13px 15px -6px rgba(0, 0, 0, .2);
+}
+
+.card .detail a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+/* style section */
+section {
+    padding: 100px;
+    padding-bottom: 205px;
+}
+
+section .carouselMenu {
+    position: relative;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.carouselBox-card {
+    overflow: hidden;
+    width: 3900px;
+    height: 250px;
+}
+
+
+@keyframes slider {
+    from {
+        width: 1466px;
+        opacity: 1;
+    }
+
+    to {
+        width: 361px;
+        opacity: 0;
+    }
+}
+
+.carouselMenu-card {
+    width: 300px;
+    height: 250px;
+    border: 1px solid navy;
+    float: left;
+    margin-left: 57px;
+    margin-right: 7px;
+    border-top-left-radius: 57px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 57px;
+}
+
+.active {
+    display: none;
+}
+
+.one {
+    background-image: linear-gradient(128deg, #130e0e, #2489d9);
+}
+
+.two {
+    background-image: linear-gradient(308deg, #a26779, #ceaab0);
+}
+
+.three {
+    background-image: linear-gradient(308deg, #3189af, #165177);
+}
+
+.four {
+    background-image: linear-gradient(308deg, #a26779, #ceaab0);
+}
+
+.carouselMenu-card .carouselMenu-content {
+    padding: 30px;
+    text-align: justify;
+    color: #fff4f4;
+    font-weight: bold;
+}
+
+.carouselMenu-footer {
+    color: white;
+    text-align: center;
+}
+
+.carouselMenu-button {
+    width: 1168px;
+    height: 250px;
+    top: 0;
+    margin-left: -11px;
+    position: absolute;
+}
+
+.carouselMenu-button .button-prev {
+    position: absolute;
+    top: 84px;
+    left: 10px;
+}
+
+.carouselMenu-button .button-next {
+    position: absolute;
+    top: 84px;
+    right: 10px;
+}
+
+.carouselMenu-button i {
+    box-shadow: 0 21px 17px -6px rgba(0, 0, 0, .2);
+}
+
+
+/* style footer */
+footer {
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(235, 232, 232);
+    border-bottom: 1px solid rgb(235, 232, 232);
+}
+
+footer .box-footer {
+    overflow: hidden;
+    padding-left: 73px;
+}
+
+footer .layanan {
+    margin-top: 65px;
+    margin-left: 247px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #2A2A2A;
+    letter-spacing: 0px;
+}
+
+.box-footer-bottom {
+    overflow: hidden;
+    margin-top: -60px;
+}
+
+footer .float-left {
+    float: left;
+    margin-right: 207px;
+    margin-left: 346px;
+}
+
+footer .layanan h2 {
+    color: #777777;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 13px;
+}
+
+.layanan ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 15px;
+    margin-left: 30px;
+    max-height: 200px;
+}
+
+footer ul li {
+    display: block;
+    max-height: 200px;
+}
+
+.copyright {
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+
+/*untuk layar device berukuran kecil*/
+@media screen and (max-width: 450px) {
+    nav ul {
+        margin-left: 0vw;
+    }
+
+    .bars {
+        float: left;
+        position: relative;
+        top: 19px;
+
+        right: -89vw;
+    }
+
+    .kanan {
+        margin-left: 44vw;
+        text-align: right;
+        margin-top: -4vw;
+    }
+
+    .container {
+        margin-top: 73px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    header {
+        margin-left: 0;
+
+        height: 108px;
+    }
+
+    header .jumbotron {
+        height: 108px;
+
+        padding: 10px;
+
+    }
+
+    .jumbotron .overlay {
+        font-size: 1.2em;
+    }
+
+    .jumbotron p {
+        margin-top: 10px;
+        font-size: 0.9em;
+    }
+
+    main {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        padding-top: 4vw;
+        padding-bottom: 0vw;
+    }
+
+    main .box-card {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        padding-bottom: 5vw;
+    }
+
+    main .card {
+
+        margin-bottom: 9vw;
+        margin-top: 2vw;
+        height: 252px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    main .card img {
+        width: 100%;
+    }
+
+    .card .title h2 {
+
+        font-size: 1em;
+    }
+
+    .card .conten p {
+        font-size: 0.9em;
+    }
+
+    .card .detail {
+        width: 25vw;
+        padding: 3px;
+        margin-top: -3vw;
+    }
+
+    section {
+        padding: 2vw;
+    }
+
+    section .carouselMenu .carouselBox-card {
+        width: 95vw;
+        height: 182px;
+    }
+
+    .carouselBox-card .carouselMenu-card {
+        margin-left: 11vw;
+        width: 200px;
+        height: 180px;
+    }
+
+    .carouselMenu-content p {
+        font-size: 0.7em;
+    }
+
+    .carouselMenu-footer {
+        margin-top: -10px;
+    }
+
+    .carouselMenu-footer p {
+        font-size: 0.8em;
+    }
+
+    .carouselMenu .carouselMenu-button {
+
+        width: 95vw;
+        margin-left: 0;
+
+    }
+
+    .carouselMenu-button .button-prev {
+        left: 5px;
+        font-size: 0.4em;
+    }
+
+    .carouselMenu-button .button-next {
+        right: 5px;
+        font-size: 0.4em;
+    }
+
+
+    footer {
+        margin-top: 7vw;
+        height: 330px;
+    }
+
+    footer .box-footer {
+        padding-left: 0vw;
+
+    }
+
+    .box-footer .wai {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 5vw;
+        text-align: center;
+
+    }
+
+    .wai h2 {
+        font-size: 1.2em !important;
+    }
+
+    .wai li {
+        font-size: 0.9em;
+    }
+
+    .box-footer .box-footer-bottom {
+        margin-top: -43px;
+        margin-left: 4vw;
+        margin-right: 4vw;
+
+    }
+
+    .box-footer-bottom .float-left {
+
+        margin-right: 4vw;
+        margin-left: 4vw;
+        margin-top: 6vw;
+        float: none;
+    }
+
+    .float-left h2 {
+        font-size: 1.2em !important;
+    }
+
+    .float-left li {
+        font-size: 0.9em;
+    }
+
+    .box-footer-bottom .right {
+        margin-right: 4vw;
+        margin-left: 27vw;
+        margin-top: -13vw;
+        text-align: right;
+
+    }
+
+    .right h2 {
+        font-size: 1.2em !important;
+    }
+
+    .right li {
+        font-size: 0.9em;
+    }
+
+    .copyright {
+        font-size: 0.7em;
+    }
+}
+
+/*untuk layar device berukuran kecil*/
+@media screen and (max-width: 799px) {
+    nav ul {
+        margin-left: 39px;
+    }
+
+    .bars {
+        /* display: inline-block; */
+        float: left;
+        position: relative;
+        top: 19px;
+
+        right: -79vw;
+    }
+
+    .hide {
+        display: inline-block;
+    }
+
+    .kanan {
+        display: none;
+    }
+
+    .container {
+        margin-top: 73px;
+    }
+
+    aside {
+        display: none;
+    }
+
+    header {
+        margin-left: 0;
+
+        height: 157px;
+    }
+
+    header .jumbotron {
+        height: 157px;
+
+        padding: 40px;
+        padding-top: 0px;
+    }
+
+    main {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        padding-top: 2vw;
+        padding-bottom: 0vw;
+    }
+
+    main .box-card {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        padding-bottom: 5vw;
+    }
+
+    main .card {
+        margin-bottom: 4vw;
+        margin-top: 2vw;
+        width: 161px;
+        height: 278px;
+        margin-right: 1vw;
+        margin-left: 6vw;
+    }
+
+    main .card img {
+        width: 159px;
+    }
+
+    section {
+        padding: 2vw;
+    }
+
+    section .carouselMenu .carouselBox-card {
+        width: 95vw;
+    }
+
+    .carouselBox-card .carouselMenu-card {
+        margin-left: 16vw;
+        width: 280px;
+    }
+
+    .carouselMenu .carouselMenu-button {
+
+        width: 95vw;
+        margin-left: 0;
+
+    }
+
+    .carouselMenu-button .button-prev {
+        left: 5px;
+    }
+
+    .carouselMenu-button .button-next {
+        right: 5px;
+    }
+
+
+    footer {
+        margin-top: 7vw;
+        height: 330px;
+    }
+
+    footer .box-footer {
+        padding-left: 0vw;
+
+    }
+
+    .box-footer .wai {
+        margin-left: 4vw;
+        margin-right: 4vw;
+        margin-top: 5vw;
+        text-align: center;
+
+    }
+
+    .box-footer .box-footer-bottom {
+        margin-top: -43px;
+        margin-left: 4vw;
+        margin-right: 4vw;
+
+    }
+
+    .box-footer-bottom .float-left {
+
+        margin-right: 4vw;
+        margin-left: 4vw;
+        margin-top: 6vw;
+    }
+
+    .box-footer-bottom .right {
+        margin-right: 4vw;
+        margin-left: 43vw;
+        margin-top: 6vw;
+
+    }
+}
+
+/*untuk layar device berukuran sedang*/
+
+
+
+@media screen and (min-width: 800px) {
+
+    nav ul {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 1%;
+        float: left;
+    }
+
+    nav ul li {
+        height: 55px;
+        line-height: 55px;
+        display: inline-block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #777;
+    }
+
+    .kanan {
+        margin-left: 0%;
+        /* margin-right: 0%; */
+        width: 79%;
+        /* margin: 0 auto; */
+        /* border: 1px solid yellow; */
+        text-align: right;
+    }
+
+    .kanan li {
+        margin-right: 0;
+        margin-left: 5%;
+    }
+
+    /* style container */
+
+    .container {
+        margin-top: 80px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    /* style asid */
+    aside {
+        width: 300px;
+        float: left;
+    }
+
+    aside img {
+        width: 18vw;
+        height: 18vw;
+        border-radius: 50%;
+        /* border: 3px solid rgba(0, 0, 0, .15);
+        margin-left: 23px;
+        margin-top: 38px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important; */
+    }
+
+    aside h2 {
+        float: left;
+    }
+
+    aside .aboutMe .boxAboutMe {
+        position: absolute;
+        margin-top: -115px;
+    }
+
+    aside .aboutMe h4 i {
+        margin-left: 88px;
+        margin-top: 5px;
+    }
+
+    div.hide {
+        display: none;
+    }
+
+    aside ul {
+        margin-left: 25px;
+        margin-top: 45px;
+        width: 260px;
+    }
+
+    aside ul li {
+        display: block;
+        overflow: hidden;
+    }
+
+    aside ul li p {
+        text-align: justify;
+        padding-right: 10px;
+        padding-top: 19px;
+        padding-bottom: 15px;
+    }
+
+
+    aside .myBackground ul {
+        margin-top: 10px;
+    }
+
+    aside .myBackground .boxMyBackground {
+        position: absolute;
+        margin-top: -115px;
+    }
+
+    aside .myBackground h4 i {
+        margin-left: 24px;
+        margin-top: 5px;
+    }
+
+    @keyframes fade-down {
+        from {
+            height: 1px;
+        }
+
+        to {
+            height: 142px;
+        }
+    }
+
+    @keyframes fade-up {
+        from {
+            height: 142px;
+        }
+
+        to {
+            height: 1px;
+        }
+    }
+
+    /* style header */
+    header {
+        margin-left: 300px;
+        /* height: 103vh; */
+    }
+
+    /* style jumbotron */
+    .jumbotron {
+        width: 100%;
+        height: 400px;
+        padding: 150px 40px;
+        box-sizing: border-box;
+        text-align: center;
+        color: #0c7cd5;
+        background-color: #fff;
+        border-bottom: 1px solid rgb(235, 232, 232);
+        opacity: .9;
+    }
+
+    .jumbotron .overlay {
+        text-shadow: 4px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .jumbotron p {
+        margin-top: 10px;
+    }
+
+    /* main */
+    main {
+        margin-left: 300px;
+        overflow: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    main .boxMyPortfolio {
+        position: relative;
+        top: -100px;
+    }
+
+    main .box-card {
+        overflow: hidden;
+        /* border: 1px solid; */
+    }
+
+    /* card */
+
+    .card {
+        margin: 45px;
+        width: 250px;
+        height: 300px;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+        float: left;
+        padding-bottom: 20px;
+        background-color: #f8f9fa !important;
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+    }
+
+    .card img {
+        width: 250px;
+    }
+
+    .card .title {
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+
+    .card .title h2 {
+        font-weight: 300;
+        font-size: 20px;
+        color: #2196f3;
+    }
+
+    .card .conten {
+        padding: 10px;
+    }
+
+    .card .conten p {
+        color: #777;
+    }
+
+    .card .detail {
+        width: 100px;
+        background-color: #0bbee6;
+        border-color: #0c7cd5;
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        margin: 5px auto;
+        margin-top: 10px;
+        box-shadow: 0 13px 15px -6px rgba(0, 0, 0, .2);
+    }
+
+    .card .detail a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+
+    /* style section */
+    section {
+        padding: 100px;
+        padding-bottom: 205px;
+    }
+
+    section .carouselMenu {
+        position: relative;
+        margin: 0 auto;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .carouselBox-card {
+        overflow: hidden;
+        width: 3900px;
+        height: 250px;
+    }
+
+
+    @keyframes slider {
+        from {
+            width: 1466px;
+            opacity: 1;
+        }
+
+        to {
+            width: 361px;
+            opacity: 0;
+        }
+    }
+
+    .carouselMenu-card {
+        width: 300px;
+        height: 250px;
+        border: 1px solid navy;
+        float: left;
+        margin-left: 57px;
+        margin-right: 7px;
+        border-top-left-radius: 57px;
+        border-top-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 57px;
+    }
+
+    .active {
+        display: none;
+    }
+
+    .one {
+        background-image: linear-gradient(128deg, #130e0e, #2489d9);
+    }
+
+    .two {
+        background-image: linear-gradient(308deg, #a26779, #ceaab0);
+    }
+
+    .three {
+        background-image: linear-gradient(308deg, #3189af, #165177);
+    }
+
+    .four {
+        background-image: linear-gradient(308deg, #a26779, #ceaab0);
+    }
+
+    .carouselMenu-card .carouselMenu-content {
+        padding: 30px;
+        text-align: justify;
+        color: #fff4f4;
+        font-weight: bold;
+    }
+
+    .carouselMenu-footer {
+        color: white;
+        text-align: center;
+    }
+
+    .carouselMenu-button {
+        width: 1168px;
+        height: 250px;
+        top: 0;
+        margin-left: -11px;
+        position: absolute;
+    }
+
+    .carouselMenu-button .button-prev {
+        position: absolute;
+        top: 84px;
+        left: 10px;
+    }
+
+    .carouselMenu-button .button-next {
+        position: absolute;
+        top: 84px;
+        right: 10px;
+    }
+
+    .carouselMenu-button i {
+        box-shadow: 0 21px 17px -6px rgba(0, 0, 0, .2);
+    }
+
+
+    /* style footer */
+    footer {
+        width: 100%;
+        height: 390px;
+        overflow: hidden;
+        box-sizing: border-box;
+        border-top: 1px solid rgb(235, 232, 232);
+        border-bottom: 1px solid rgb(235, 232, 232);
+    }
+
+    footer .box-footer {
+        overflow: hidden;
+        padding-left: 73px;
+    }
+
+    footer .layanan {
+        margin-top: 65px;
+        margin-left: 247px;
+        margin-bottom: 50px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #2A2A2A;
+        letter-spacing: 0px;
+    }
+
+    .box-footer-bottom {
+        overflow: hidden;
+        margin-top: -60px;
+    }
+
+    footer .float-left {
+        float: left;
+        margin-right: 207px;
+        margin-left: 346px;
+    }
+
+    footer .layanan h2 {
+        color: #777777;
+        font-weight: 300;
+        font-size: 28px;
+        margin-bottom: 13px;
+    }
+
+    .layanan ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    footer ul {
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 15px;
+        margin-left: 30px;
+        max-height: 200px;
+    }
+
+    footer ul li {
+        display: block;
+        max-height: 200px;
+    }
+
+    .copyright {
+        min-height: 50px;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        font-weight: bold;
+        color: #2a2a2a;
+    }
+
+}
+
+
+/* @media screen and (min-width: 450px) {
+    nav ul {
+        margin-left: 39px;
+    }
+
+    .bars {
+        float: left;
+        position: relative;
+        top: 19px;
+        right: -72vw;
+    }
+
+    aside {
+        display: none;
+    }
+
+    header {
+        margin-left: 0;
+        height: 169px;
+    }
+
+    header .jumbotron {
+        height: 169px;
+        padding: 40px;
+    }
+
+    main {
+        margin-left: 2vw;
+        padding-top: 7vw;
+    }
+
+    main .box-card {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    main .card {
+        margin: 0vw;
+        margin-top: 2vw;
+        width: 161px;
+        height: 300px;
+        margin-right: 4vw;
+        margin-left: 6vw;
+    }
+
+    main .card img {
+        width: 159px;
+    }
+
+    section {
+        padding: 2vw;
+    }
+
+    section .carouselMenu .carouselBox-card {
+        width: 91vw;
+    }
+
+    .carouselBox-card .carouselMenu-card {
+        margin-left: 16vw;
+    }
+
+    .carouselMenu .carouselMenu-button {
+        width: 92vw;
+        margin-left: 0;
+    }
+
+    footer .box-footer {
+        padding-left: 1vw;
+        text-align: center;
+    }
+
+    .box-footer .wai {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .box-footer .box-footer-bottom {
+        margin-top: -43px;
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .box-footer-bottom .float-left {
+        margin-right: 4vw;
+        margin-left: 4vw;
+    }
+
+    .box-footer-bottom .right {
+        margin-right: 4vw;
+        margin-left: 43vw;        
+    }
+} */
+
+/*untuk layar device berukuran sedang*/
+/* @media screen and (min-width: 550px) {
+        .red {
+            width: 33%;
+        }
+
+        .orange {
+            width: 67%;
+        }
+    } */
+
+/*untuk layar device berukuran besar*/
+/* @media screen and (min-width: 800px) {
+        .container {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    } */
